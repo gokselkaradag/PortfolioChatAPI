@@ -8,7 +8,7 @@ namespace Goksel_Chat_BotAPI.Models.Gemini;
 public class GeminiRequest
 {
     [JsonPropertyName("contents")]
-    public List<Content> Content { get; set; }
+    public List<Content> Contents { get; set; }
 }
 
 public class Content
