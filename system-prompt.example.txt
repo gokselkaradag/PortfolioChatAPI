@@ -1,0 +1,1 @@
+﻿Buraya kendi System Prompt'unuzu yazın ve dosya adını system-prompt.txt olarak değiştirin.
