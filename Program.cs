@@ -15,12 +15,17 @@ builder.Services.AddScoped<IGeminiService, GeminiService>();
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll",
-        builder =>
+    options.AddPolicy("GuvenliSitePolitikasi",
+        policyBuilder =>
         {
-            builder.AllowAnyOrigin()
-                .AllowAnyMethod()
-                .AllowAnyHeader();
+            policyBuilder.WithOrigins(
+                    "https://www.gokselkaradag.com.tr", 
+                    "https://gokselkaradag.com.tr",     
+                    "http://127.0.0.1:5500",            
+                    "http://localhost:5500"             
+                )
+                .AllowAnyMethod()   
+                .AllowAnyHeader();  
         });
 });
 
@@ -36,7 +41,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseCors("AllowAll");
+app.UseCors("GuvenliSitePolitikasi");
 
 app.UseAuthorization();
 app.MapControllers();

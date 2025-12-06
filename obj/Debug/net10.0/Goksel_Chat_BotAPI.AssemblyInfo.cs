@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Goksel_Chat_BotAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad19e2eae8ac5ed8859953670b464c2def2477a9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f52ad1490d412b40e26b6024139b8af85092abe1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Goksel_Chat_BotAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Goksel_Chat_BotAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
